@@ -7,4 +7,5 @@ import google.auth.transport.requests
 from google.oauth2 import service_account
 
 SCOPES = ['https://www.googleapis.com/auth/cloud-identity.devices']
+SERVICE_ACCOUNT_FILE = '/path/to/service-account-file.json'
 
