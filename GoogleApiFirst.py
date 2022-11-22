@@ -6,3 +6,5 @@ from six.moves import urllib
 import google.auth.transport.requests
 from google.oauth2 import service_account
 
+SCOPES = ['https://www.googleapis.com/auth/cloud-identity.devices']
+
