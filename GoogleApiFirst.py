@@ -14,6 +14,9 @@ def create_service():
     SERVICE_ACCOUNT_FILE, scopes=SCOPES)
   delegated_credentials = credentials.with_subject('mail@XXXX.com')
 
+service_name = 'cloudidentity'
+
+
   return service
 
 
