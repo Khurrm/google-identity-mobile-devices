@@ -15,6 +15,11 @@ def create_service():
   delegated_credentials = credentials.with_subject('mail@XXXX.com')
 
 service_name = 'cloudidentity'
+api_version = 'v1'
+  service = googleapiclient.discovery.build(
+    service_name,
+    api_version,
+    credentials=credentials)
 
 
   return service
