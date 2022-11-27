@@ -28,3 +28,6 @@ api_version = 'v1'
 # AUTHENTICATE the Service Account
 # Retrieve an oauth2 Access Token
 
+request = google.auth.transport.requests.Request()
+
+
