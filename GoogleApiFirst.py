@@ -24,4 +24,7 @@ api_version = 'v1'
 
   return service
 
+######################################################################
+# AUTHENTICATE the Service Account
+# Retrieve an oauth2 Access Token
 
