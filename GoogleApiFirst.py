@@ -29,5 +29,8 @@ api_version = 'v1'
 # Retrieve an oauth2 Access Token
 
 request = google.auth.transport.requests.Request()
+dc = create_delegated_credentials(ADMIN_EMAIL)
+dc.refresh(request)
+print('Access token: ' + dc.token + '\n')
 
 
